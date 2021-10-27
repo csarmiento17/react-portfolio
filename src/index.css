@@ -1,6 +1,7 @@
 main {
   margin: 0 auto;
-  max-width: 90%;
+  overflow-y: auto;
+  max-width: 70%;
   padding: 50px 30px;
 }
 :root {
@@ -9,7 +10,7 @@ main {
   --secondary: #90e0ef;
   --tertiary: #030303;
   --light: #caf0f8;
-  --dark: #0077b6;
+  --dark: #caf0f8;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -91,6 +92,8 @@ a:hover {
 
 header {
   background: var(--dark);
+  justify-content: center;
+  align-items: center;
 }
 
 header a {
@@ -122,6 +125,10 @@ img {
   max-width: 100%;
 }
 
+.img-round {
+  border-radius: 50%;
+}
+
 span[role="img"] {
   cursor: default;
 }
@@ -147,7 +154,10 @@ input:focus {
 li {
   list-style: none;
 }
-
+nav {
+  align-items: center;
+  text-align: center;
+}
 nav a:hover {
   text-decoration: none;
 }
@@ -169,10 +179,34 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
+.font-xs {
+  font-size: 0.5em;
+}
 
+.font-sm {
+  font-size: 0.8em;
+}
+
+.font-sm-b {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.font-md {
+  font-size: 1em;
+  font-weight: bold;
+}
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+.flex-direction-column {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-center {
+  align-content: center;
 }
 .center {
   justify-content: center;
@@ -231,42 +265,11 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
 .img-thumbnail {
   width: auto;
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
-}
-
-.modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
 }
 
 button {
@@ -294,9 +297,9 @@ a {
   color: var(--secondary);
 }
 
-footer {
+/* footer {
   bottom: 0;
   height: 10%;
   position: absolute;
   width: 100%;
-}
+} */

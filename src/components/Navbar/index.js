@@ -9,7 +9,7 @@ const Navbar = (props) => {
   } = props;
 
   return (
-    <header className="flex-row space-between px-1">
+    <header className="flex-row space-between px-4">
       <h2>
         <a href="/">
           <span aria-label="name">Carlopher Jay</span>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
@@ -21,6 +20,10 @@ function App() {
         setResumeSelected={setResumeSelected}
       />
       <main>
+        {!portfolioSelected &&
+          !contactSelected &&
+          !resumeSelected &&
+          !aboutSelected && <AboutMe />}
         {aboutSelected && <AboutMe />}
         {portfolioSelected && <Portfolio />}
         {contactSelected && <ContactMe />}

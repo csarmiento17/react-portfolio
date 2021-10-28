@@ -79,6 +79,44 @@ const index = () => {
               </li>
             </ul>
           </div>
+
+          <div className="font-sm my-2">
+            KForce Global Solutions Inc. | SharePoint Developer (Jul 2012 – Aug
+            2013)
+            <ul className="my-2">
+              <li>
+                • Developed and maintained custom SharePoint sites built in
+                HTML, CSS and Javascript
+              </li>
+              <li>• Developed Workflow using SharePoint Designer 2010/2013.</li>
+              <li>
+                • Reports/discusses status to the Team Leader and raise issues,
+                if any.
+              </li>
+            </ul>
+          </div>
+          <div className="font-sm my-2">
+            Accenture Inc. | SharePoint Developer (Mar 2010 – Jul 2012 )
+            <ul className="my-2">
+              <li>• Migrated Lotus Notes data to MOSS 2007 using Quest Tool</li>
+              <li>
+                • Modified SharePoint 2010 masterpage using HTML, CSS and JQuery
+              </li>
+              <li>
+                • Created Detailed Design that will be used as an approach on
+                how to migrate a Lotus Notes into SharePoint
+              </li>
+              <li>
+                • Support SharePoint 2010 built using server-side code and
+                managed deployment to production
+              </li>
+              <li>
+                • Managed SharePoint Services in Central Administration like
+                SharePoint Search and Search scope, Taxonomy, User Profile
+                Services etc.
+              </li>
+            </ul>
+          </div>
           <div className="font-md my-4">EDUCATION</div>
           <div>
             <p className="font-sm my-2">

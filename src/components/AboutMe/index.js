@@ -1,5 +1,6 @@
 import React from "react";
-import mypic from "../../assets/mypic.jpg";
+import mypic from "../../images/mypic.jpg";
+
 const index = () => {
   return (
     <>

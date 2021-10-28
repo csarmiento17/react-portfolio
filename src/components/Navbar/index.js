@@ -11,9 +11,7 @@ const Navbar = (props) => {
   return (
     <header className="flex-row space-between px-4">
       <h2>
-        <a href="/">
-          <span aria-label="name">Carlopher Jay</span>
-        </a>
+        <span aria-label="name">Carlopher Jay</span>
       </h2>
       <nav>
         <ul className="flex-row">
